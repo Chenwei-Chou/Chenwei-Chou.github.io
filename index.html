@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>
+    Chaoqi Liu
+  </title>
+
+  <meta name="author" content="Chaoqi Liu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/atlas.ico">
+
+</head>
+
+
+
+<body>
+  <table
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Chaoqi Liu
+                  </p>
+                  <p>
+                    I'm a sophomore at <a href="https://illinois.edu/">University of Illinois Urbana-Champaign
+                      (UIUC)</a> studying computer science and mathematics. My academic journey is driven by an
+                    unwavering ardor for the field of robotics, especially mobile manipulation. Currently, I'm working
+                    on large-scale Graph-based Neural Dynamics (GBND), under the esteemed guidance of Prof. <a
+                      href="https://kkhauser.web.illinois.edu/">Kris Hauser</a> and Prof. <a
+                      href="https://yunzhuli.github.io/">Yunzhu Li</a>. Previously, I enjoyed exploring model-based
+                    planning and control, and had a great time collaborating with <a
+                      href="https://www.cs.cmu.edu/~rnataraj/">Ramkumar Natarajan</a> and Prof. <a
+                      href="https://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a> on kinodynamic motion planning by graph
+                    search and optimization.
+                  </p>
+                  <p style="text-align:center">
+                    <a href="mailto:chaoqil2@illinois.edu">chaoqil2 [at] illinois [dot] edu</a> &nbsp;/&nbsp;
+                    <a href="https://github.com/Chaoqi-LIU">GitHub</a> &nbsp/&nbsp;
+                    <a href="https://twitter.com/liu730chaoqi">Twitter</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <img class="img-responsive img-rounded" src="images/chaoqi_atlas.jpg" alt="Photo"
+                    style="max-width: 100%; border:1px solid black"><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!-- Research -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Publications</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <video playsinline autoplay loop muted src="projects/INSATxGCS/ixg.mp4" alt="sym"
+                    style="border:1px solid black" alt="" width="160"></video>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:top">
+                  <br>
+                  <a href="https://www.cs.cmu.edu/~rnataraj/">Ramkumar Natarajan</a>,
+                  <strong>Chaoqi Liu</strong>,
+                  <a href="https://www.cs.cmu.edu/~./choset/">Howie Choset</a>,
+                  <a href="https://www.cs.cmu.edu/~maxim/">Maxim Likhachev</a>
+                  <br>
+                  <span class="papertitle">Implicit Graph Search for Planning on Graphs of Convex Sets</span>
+                  <br>
+                  <a href="https://roboticsconference.org/">RSS</a>, 2024
+                  <br>
+                  <p>
+                    A scalable and efficient way to plan on Graphs of Convex Sets (GCS) with stronger theoretical
+                    properties. We plan on GCS using a previously developed hybrid search-optimization framework called
+                    INSAT.
+                  <details>
+                    <summary>Abstract</summary>
+                    Smooth, collision-free motion planning is a fundamental challenge in robotics with a wide range of
+                    applications across various industries and domains such as automated manufacturing, search & rescue,
+                    underwater exploration, etc. Graphs of Convex Sets (GCS) is a recent method for synthesizing smooth
+                    trajectories by decomposing the planning space into convex sets, forming a graph to encode the
+                    adjacency relationships within the decomposition, and then simultaneously searching this graph and
+                    optimizing parts of the trajectory to obtain the final trajectory. To do this, one must solve a
+                    Mixed Integer Convex Program (MICP) and to mitigate computational time, GCS proposes a convex
+                    relaxation that is very tight. Despite this tight relaxation, motion planning with GCS for
+                    real-world robotics problems translates to solving the simultaneous batch optimization problem that
+                    may contain millions of constraints and therefore can be slow. This is further exacerbated by the
+                    fact that the size of the GCS problem is invariant to the planning query. Based on the observation
+                    that the trajectory solution lies only on a fraction of the set of convex sets, we present two
+                    implicit graph search methods for planning on the graph of convex sets called INSATxGCS (IxG) and
+                    IxG*. INterleaved Search And Trajectory optimization (INSAT) is a previously developed algorithm
+                    that alternates between searching on a graph and optimizing partial paths to find a smooth
+                    trajectory. We show that by using an implicit graph search method INSAT on the graph of convex sets,
+                    we can plan faster and provide stronger guarantees on completeness and optimality. In addition,
+                    introducing a search-based technique to plan on the graph of convex sets enables us to easily
+                    leverage well-established techniques such as search parallelization, lazy planning, anytime
+                    planning, and replanning as future work. We compare our method with GCS to show numerically that IxG
+                    outperforms in several applications including planning for an 18-DoF multi-arm assembly scenario.
+                  </details>
+                  </p>
+                </td>
+              </tr>
+
+
+            </tbody>
+          </table>
+
+
+          <!-- Projects -->
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <h2>Projects</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="projects/spimbot/spimbot.jpg" style="border:1px solid black"
+                      alt="" width="160">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:top">
+                  <span class="papertitle">Spimbot: A bot that Aced the Arena</span>
+                  <br>
+                  <em>CS233 Computer Architecture @ UIUC</em>, 2023sp
+                  <br>
+                  <a href="https://github.com/Chaoqi-LIU/Spimbot">code</a>
+                  <p>
+                    This is a course project at UIUC. Wrote a 2000+ lines MIPS Assembly code program to manipulate and
+                    control a bot that solves puzzles and cleans tiles. Utilized code optimization techniques such as
+                    double buffering, loop unrolling, parallelism. Resulting in solving puzzles up to 7 times faster
+                    than the provided solver. Bot developed had the best locomotion and fastest puzzle solving ability
+                    among all bots. Aced the competition and ranked 1st among over 150+ teams.
+                  </p>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+
+
+          <!-- Teaching and Service -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Teaching and Service</h2>
+                  <p><strong>Course Assistant</strong>, CS233 Computer Architecture @ UIUC, 2023fa</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <!-- Honor and Awards -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Honor and Awards</h2>
+                  <p><strong>UIUC Dean's List</strong>, 2022fa, 2023sp, 2023fa</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+          <!-- Misc -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td>
+                  <h2>Misc.</h2>
+                  <p>
+                    I have consistently maintained a perfect 4.0 GPA, excelling with top grades of A/A+ in all of my
+                    Computer Science, Mathematics, and Statistics courses. A complete list can be found <a
+                      href="https://chaoqi-liu.github.io/archive/education/uiuc">here</a>.
+                  </p>
+                  <p>
+                    刘晁企 is my name in Chinese. You can pronounce it as "Chow-Chee" for my first name and "Lee-oh" for my
+                    last name.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Page template borrowed from <a href="https://jonbarron.info/">Jon Barron</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+  </table>
+</body>
+
+</html>
