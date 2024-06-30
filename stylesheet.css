@@ -138,7 +138,7 @@ span.highlight {
 body {
   margin: 0;
   padding: 0;
-  background-image: url('images/10atlas.png');
+  background-image: url('images/sb.png'); /* background-image: url('images/10atlas.png'); */
   background-size: cover; /* Cover the entire background area */
   background-repeat: no-repeat; /* Prevent background image from repeating */
   background-position: center; /* Center the background image */
